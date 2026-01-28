@@ -1,0 +1,88 @@
+/* ===== RESET NHẸ ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: #f4f6f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== TIÊU ĐỀ ===== */
+h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+/* ===== CARD ===== */
+.card {
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== TABLE ===== */
+.table {
+    background-color: #ffffff;
+}
+
+.table th {
+    background-color: #212529;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+    border-radius: 6px;
+}
+
+.btn-success {
+    background-color: #198754;
+}
+
+.btn-warning {
+    color: #000;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* ===== FORM INPUT ===== */
+input,
+select {
+    border-radius: 6px !important;
+}
+
+/* ===== ADMIN CONTAINER ===== */
+.container {
+    max-width: 1100px;
+}
+
+/* ===== HOVER EFFECT ===== */
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+    cursor: pointer;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    h3 {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
